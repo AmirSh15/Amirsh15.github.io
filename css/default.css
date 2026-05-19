@@ -505,6 +505,24 @@ input[type="button"]:active {
    color: #fff;
 }
 
+.button-primary {
+   background: #2d9fff;
+   color: #fff;
+}
+.button-primary:hover,
+.button-primary:focus {
+   background: #1c7dd9;
+}
+.button-secondary {
+   background: transparent;
+   color: #fff;
+   border: 1px solid rgba(255,255,255,.9);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+   background: rgba(255,255,255,.08);
+}
+
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
